@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Web3Service from "../utils/web3";
 import ShowBuyingModal from "./ShowBuyingModal";
 
-const SubdomainItem = props => {
+const SubdomainItem = (props) => {
   const [openBuying, setOpenBuying] = React.useState(false);
   const buySubdomain = async () => {
     if (props.buyable) {
