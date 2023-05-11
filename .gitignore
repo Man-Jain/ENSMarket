@@ -5,14 +5,10 @@
 /.pnp
 .pnp.js
 
+build
+
 # testing
 /coverage
-
-# production
-/build
-
-#important
-/src/utils/web3.js
 
 # misc
 .DS_Store
